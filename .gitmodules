@@ -1,0 +1,3 @@
+[submodule "pelican-twitchy"]
+	path = pelican-twitchy
+	url = git://github.com/ingwinlu/pelican-twitchy.git

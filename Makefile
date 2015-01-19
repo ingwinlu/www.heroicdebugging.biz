@@ -7,7 +7,6 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 
-
 GITHUB_PAGES_BRANCH=gh-pages
 
 DEBUG ?= 1

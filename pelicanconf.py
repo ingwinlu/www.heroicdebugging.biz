@@ -40,7 +40,7 @@ EXTRA_PATH_METADATA = {
 #DEFAULT_PAGINATION = 3
 
 #theme
-THEME = "/home/winlu/gitrepos/pelican_my_themes/pelican-twitchy"
+THEME = "pelican-twitchy"
 BOOTSTRAP_THEME = 'sandstone'
 PYGMENTS_STYLE = 'colorful'
 #PYGMENTS_STYLE = 'emacs'
@@ -52,9 +52,18 @@ ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 #plugins
-PLUGIN_PATHS = ['/home/winlu/gitrepos/pelican-plugins', '/home/winlu/gitrepos/pelican_my_plugins']
-#PLUGINS = ['render_math' , 'sort_tags' , 'bootstrapify']
-PLUGINS = ['render_math' , 'sort_tags' , 'bootstrapify', 'toc', 'sitemap']
+PLUGIN_PATHS = [
+        'pelican-bootstrapify',
+        'pelican_plugin-render_math',
+        'pelican-sitemap',
+        'pelican-toc'
+    ]
+PLUGINS = [
+        'bootstrapify',
+        'render_math',
+        'sitemap',
+        'toc'
+    ]
 
 #sitemap settings
 SITEMAP = {
@@ -103,7 +112,7 @@ DISQUS_LOAD_LATER = True
 TYPOGRIFY = True
 
 #sitelogo
-SITELOGO = '/sitelogo.png'
+SITELOGO = 'sitelogo.png'
 SITELOGO_SIZE = '200'
 HIDE_SITENAME = True
 
@@ -123,3 +132,6 @@ GOOGLE_ANALYTICS='UA-8040053-2'
 
 #Markdown
 #MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
+
+#Cache
+CACHE_CONTENT = False

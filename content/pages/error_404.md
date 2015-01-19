@@ -1,0 +1,5 @@
+Title: 404 - Not Found
+Status: hidden
+Save_as: errors/status-404.html
+
+The requested item could not be located. Perhaps you might want to check the [Archives](/archives.html)?

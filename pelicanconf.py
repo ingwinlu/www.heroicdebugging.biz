@@ -48,6 +48,7 @@ PYGMENTS_STYLE = 'colorful'
 #paths
 #PAGE_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 

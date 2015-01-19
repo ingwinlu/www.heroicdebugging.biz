@@ -60,7 +60,7 @@ PLUGIN_PATHS = [
     ]
 PLUGINS = [
         'bootstrapify',
-        'render_math',
+        'pelican_plugin-render_math',
         'sitemap',
         'toc'
     ]

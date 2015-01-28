@@ -16,12 +16,15 @@ Answering why **.biz** is easier, because it was dirt cheap.
 
 I do like **programming** (everything from c to erlang) so this will be most of the content on here, but I plan to also put up some content about my other hobbies, like **motorbikes**, **computer games** and **music**!
 
-###Current Projects:
-*   **Kuhbox**, a dropbox python console client with a focus on backup features
-*   [Simple Media Center](https://github.com/ingwinlu/simpleMediaCenter), media center application, written in python, alternative to xbmc
-*   [heroicpastie](http://pastie.heroicdebugging.biz), a pastie site developed in erlang/cb
-*   [pelican-twitchy](https://github.com/ingwinlu/pelican-twitchy), the pelican theme you are looking at right now :)
 
+###Contact:
+You can can contact me either via the *social links* in the sidebar or use one of these options:
+
+| Protocol       | Contact Information
+|:-------------- |:-----------------------------------------------------|
+| jabber/xmpp    | [winlu@jabber.at](winlu@jabber.at)                   |
+| email          | [derwinlu@gmail.com](mailto:derwinlu@gmail.com)      |
+| IRC - freenode | winlu                                                |
 
 ###Resume:
 ####Schooling:
@@ -63,13 +66,3 @@ I do like **programming** (everything from c to erlang) so this will be most of 
     </tr>
     </tbody>
 </table>
-
-###Contact:
-You can can contact me either via the *social links* in the sidebar or use one of these options:
-
-| Protocol       | Contact Information
-|:-------------- |:-----------------------------------------------------|
-| jabber/xmpp    | [winlu@jabber.at](winlu@jabber.at)                   |
-| email          | [derwinlu@gmail.com](mailto:derwinlu@gmail.com)      |
-| IRC - freenode | winlu                                                |
-

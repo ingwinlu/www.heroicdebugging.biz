@@ -13,4 +13,4 @@ script:
 - make github
 env:
   global:
-  - secure: "Q67CngVUV+Fyf8vvJLUskCRDJJp27iT4XrdwR9sdhS4SI/I8jnhdvHoCnUW9BZO9TNj6SYHpniAyG0nIdVO8g1rLm5RpmlnzM2t+ItBoE2H3JbmCS0WHVsTnA9z7r9PjWdmUnNXITSr9RyWuDOxrmBHpozVjool36wizL0oocqk="
+  - secure: "Y/rJPvggGyv19kwded6ZXPhuOr1RryBvwUBUOl+6e732gAKh/ox0sNtQB1XAObSZr7hkyONa+ulzOrBL4OcxjZlSfLLSWSzVqqiHn2St0AerpPHOsQ39dstP8uPzGb/ont7t9LF+igm3Jd8MLtUCsZqvyPSlf4JnWpEvP3nHfk0="

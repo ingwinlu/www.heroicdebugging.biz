@@ -1,9 +1,8 @@
 Title: Building and Hosting your static site in the Cloud
 Tags: howto, pelican, cloud, github, travis, cloudflare
-Date: 2015-01-29 19:21:52
-Status: draft
+Date: 2015-01-29 16:44:00
 
-This will be a short Howto on how to host your static site for free via [gh-pages], build it via [travis-ci] and deliver it via [cloudflare]. I'll try to keep it simple, linking to the respective sites instead of doing a `whatdoIhavetotypehere` kind of guide, since those usually end up making problems as soon as one of the mentioned sites changes things.
+This will be a short howto on how to host your static site for free via [gh-pages], build it on [travis-ci] and deliver it with [cloudflare]. I'll try to keep it simple, linking to the respective sites instead of doing a `whatdoIhavetotypehere` kind of guide, since those usually end up making problems as soon as one of the mentioned sites changes things.
 
 You also don't have to do everything in this guide to benefit from other parts, it is completely reasonable if you want to host and build your files locally, but want to speed up delivery via [cloudflare] for example.
 
@@ -87,6 +86,7 @@ Github serves everything under their own certificate, which of course, as soon a
 
 There is a way around that however.
 Using [cloudflare] we can deliver our content using their servers and their certificate which will sign our domain as well.
+Additionally you can let cloudflare optimize your site and use their caching to deliver your site faster.
 
 Keep in mind however, now you are using all advantages of ssl anymore.
 For example, if [cloudflare] decides do modify your content, it would not trigger an invalid ssl warning, since the connection is being made with them directly, encrypted using their certificate.

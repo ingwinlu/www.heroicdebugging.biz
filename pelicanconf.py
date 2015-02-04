@@ -26,7 +26,7 @@ STATIC_PATHS = ['images',
                 'extra/sitelogo.png',
                 'extra/favicon.ico',
                 'extra/robots.txt',
-                'extra/google331456191962689c.html',
+                'extra/google331456191962689c',
                 'extra/CNAME']
 EXTRA_PATH_METADATA = {
                         'extra/sitelogo.png': {'path': 'sitelogo.png'},

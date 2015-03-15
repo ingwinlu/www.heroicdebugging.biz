@@ -1,7 +1,8 @@
 Title: Installing Arch Linux ARM on a Raspberry Pi Model B
 Date: 2014-02-07 18:37:21
 Tags: Arch, ARM, Installation, Server, RPi
-Summary: A guide of the Basic Installation and Setup process of Arch Linux ARM on a Raspberry Pi
+Summary: A outdated guide of the Basic Installation and Setup process of Arch Linux ARM on a Raspberry Pi
+Status: draft
 
 #Intro
 ##Who is this guide for?

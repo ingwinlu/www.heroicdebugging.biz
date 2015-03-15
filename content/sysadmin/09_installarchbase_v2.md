@@ -9,7 +9,7 @@ This Guide is written for people who have worked with Linux before and know thei
 ##What is the Idea behind this guide?
 There are many, many guides about installing various operating systems on the Pi out there.
 This one will try to point you to wikis and articles which will answer the most questions and get you to the point where you know where you can find documentation about problems you are experiencing yourself.
-A sideeffect of that is that articles linked here should stay updated so you should not run into outdated information.
+As a sideeffect articles linked here should stay updated so you should not run into outdated information.
 
 ##Why Arch Linux ARM?
 There are innumerable blogs and articles about what OS is the best for the Pi. All with different outcome. Thankfully, as a long time arch user, I did not have to bother to look at other available distributions. Here are the reasons why I personally would always recommend Arch:
@@ -23,12 +23,12 @@ Granted, programming might be a bit different then wrestling with Arch but close
 
 Additionally the Arch Linux wiki is very, very good and if something fails there is usually a quick solution found in the forums with Google.
 #Installation
-##SD Card Preperation
+##SD Card Preparation
 This part is fairly straight forward and you can simply follow the installation instructions for [ARMv6 (rpi 1)](http://archlinuxarm.org/platforms/armv6/raspberry-pi) or [ARMv7 (rpi 2)](http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2) on [archlinuxarm.org](http://archlinuxarm.org).
 It is important that you follow the instructions to the point (tar is not the same as bsdtar and does behave differently).
 
 Since there are no provided images anymore you either have to build your own or (much easier) boot up a linux machine via livecd / virtualbox to follow the instructions.
-Alternativly you can try out [NOOBS](http://www.raspberrypi.org/help/noobs-setup/) but I never tried it so you are on your own.
+Alternatively you can try out [NOOBS](http://www.raspberrypi.org/help/noobs-setup/) but I never tried it so you are on your own.
 
 If you insert your SD-Card into your Pi now and power it up, you can log into your brand new arch system locally or via ssh to configure it further.
 ##Pacman (packet management)

@@ -58,7 +58,6 @@ It basically defines what we want travis to do and in what environment we want t
     - pip install pelican
     - pip install ghp-import
     script:
-    - make html
     - make github
 
 For the last part we somehow need to authenticate travis to access our repository.

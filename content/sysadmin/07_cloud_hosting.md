@@ -46,7 +46,7 @@ Next we need a configuration file for `.travis.yml`.
 It basically defines what we want travis to do and in what environment we want to do it.
 [Mine](https://github.com/ingwinlu/www.heroicdebugging.biz/blob/master/.travis.yml) sets the language, installs requirements for [pelican] to run, and then executes the Makefile from my repository to build html and push back to github.
 
-    :::text
+    :::yaml
     language: python
     branches:
       only:
@@ -68,7 +68,7 @@ Now we just need to encode the token so it is only for travis to use.
 To do this use the [travis ruby application](https://github.com/travis-ci/travis.rb#installation).
 After you installed it you can generate a secret environment which contains your token.
 
-    :::text
+    :::yaml
     env:
       global:
       - secure: "Y/rJPvggGyv19kwded6ZXPhuOr1RryBvwUBUOl+6e732gAKh/ox0sNtQB1XAObSZr7hkyONa+ulzOrBL4OcxjZlSfLLSWSzVqqiHn2St0AerpPHOsQ39dstP8uPzGb/ont7t9LF+igm3Jd8MLtUCsZqvyPSlf4JnWpEvP3nHfk0="

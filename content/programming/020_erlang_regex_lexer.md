@@ -2,16 +2,16 @@ Title: erllex - simple erlang sample lexer
 Date: 2015-04-08 17:06
 Tags: erlang, lexer, regex
 Summary: Showing of Regular Expressions in Erlang and how to build a simple Lexer
-Status: draft
 
 A [lexer] analyses a character sequence and turns it into meaningful tokens.
 As an example: if we want to build a simple calculator we would have to lex `<<"22 - 2011">>` into something like `[{number, 22}, {minus, -}, {number, 2011}]`.
 There are different ways to build lexers.
-Some just split on whitelines while others are more refined.
+Some just split on whitespace while others are more refined.
 The easiest way to build something a bit more advanced is leveraging the power of regular expressions.
 
 But enough with the theory.
-First we don't want to type our rules all the time so let's quickly write up a function returning our rules for simple calculator, and remember to use two `\` since it is a escape character in Erlang as mentioned in [re-docs]:
+First, we don't want to type our rules all the time so let's quickly write up a function returning some for a simple calculator.
+Remember to use two `\` since it is a escape character in Erlang as mentioned in [re-docs]:
 
     :::Erlang
     -module(erllex).
@@ -27,11 +27,11 @@ First we don't want to type our rules all the time so let's quickly write up a f
         ].
 
 Next is our main entry point.
-`tokenize` takes the rules from earlier and turns them into a long, concatenated list and compiles them.
+`tokenize` takes the rules from earlier and turns them into a long, concatenated list and compiles it.
 Notice the `anchored` option to only get the first match to the ruleset.
 
 Additionally we are going to prepare a `namelist` via `re:inspect` so we can later determine which of our subgroup actually got matched.
-For our rules it would be something like `{namelist,[<<"IDENTIFIER">>,<<"MINUS">>,<<"NUMBER">>,<<"PLUS">>,<<"WHITESPACE">>]}`, so every name of every subgroup defined in `get_rules`.
+For our rules it would be something like `{namelist,[<<"IDENTIFIER">>,<<"MINUS">>,<<"NUMBER">>,<<"PLUS">>,<<"WHITESPACE">>]}`, which is every name of every subgroup defined in `get_rules`.
 
 Then we pass over to our main recursive loop `get_tokens` to actually do the lexing.
 
@@ -56,7 +56,7 @@ Then we pass over to our main recursive loop `get_tokens` to actually do the lex
 
 `get_tokens` is a standard recursive function and should look familiar to you if you did [functional programming] before.
 
-First we are going to cover our stop criteria.
+The first clause covers our stop criteria.
 When our `BinaryString` is empty we simply return everything in our accumulator after reversing it.
 This is because we add new elements in the front of the list.
 Have a look at [erlang-listhandling] for more information on why we do that.
@@ -115,11 +115,14 @@ After compilation (`erlc erllex.erl`) we can hop into `erl` and test it.
 
 
 The full source code can be found at [erllex].
-Parser and formatter is next after extending the functionality of the lexer some more (different languages, ...).
+Parser and formatter are next after extending the functionality of the lexer some more (different languages, ...).
+
+As an additional Note: Erlang ships with a fully featured erlang parser called [leex].
 
 [functional programming]: http://en.wikipedia.org/wiki/Functional_programming "Functional Programming on wikipedia"
 [lexer]: http://en.wikipedia.org/wiki/Lexical_analysis "Lexical analysis on wikipedia"
 [erllex]: https://github.com/ingwinlu/erllex "erllex on github"
 [re-docs]: http://erlang.org/doc/man/re.html "re module docs"
+[leex]: http://erlang.org/doc/man/leex.html "erlang leex"
 [erlang-listhandling]: http://www.erlang.org/doc/efficiency_guide/listHandling.html "erlang listhandling"
 [Bit String Comprehension]: http://erlang.org/doc/reference_manual/expressions.html#id81780

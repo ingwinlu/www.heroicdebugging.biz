@@ -2,7 +2,6 @@ Title: Deployment without Erlang
 Date: 2015-04-08 13:00:00
 Tags: fun, erlang
 Summary: My submitted contribution to [thisotplife]
-Status: draft
 
 
 ![Deploying without Erlang](//i.imgur.com/K6jfd7X.gif)

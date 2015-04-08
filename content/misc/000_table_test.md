@@ -12,3 +12,9 @@ This post mostly serves as a Placeholder so I can see how pelican handels things
 | zebra stripes | are neat      | test |
 
 $x^2$
+
+intrasite link tests:
+
+[a link relative to the content root]({filename}/sysadmin/08_installarchbase_v2.md)
+
+[a link relative to the content root with headerid]({filename}/sysadmin/08_installarchbase_v2.md#installation_1)

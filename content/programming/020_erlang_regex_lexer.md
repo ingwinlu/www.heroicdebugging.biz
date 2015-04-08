@@ -10,6 +10,8 @@ Some just split on whitespace while others are more refined.
 The easiest way to build something a bit more advanced is leveraging the power of regular expressions.
 
 But enough with the theory.
+Let's build a simple regex lexer in Erlang (while also tackling the issue of grepping subgroups in regex expressions with re)!
+
 First, we don't want to type our rules all the time so let's quickly write up a function returning some for a simple calculator.
 Remember to use two `\` since it is a escape character in Erlang as mentioned in [re-docs]:
 

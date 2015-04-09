@@ -119,7 +119,7 @@ After compilation (`erlc erllex.erl`) we can hop into `erl` and test it.
 The full source code can be found at [erllex].
 Parser and formatter are next after extending the functionality of the lexer some more (different languages, ...).
 
-As an additional Note: Erlang ships with a fully featured erlang parser called [leex].
+As an additional Note: Erlang ships with a fully featured lexical analyzer generator called [leex].
 
 [functional programming]: http://en.wikipedia.org/wiki/Functional_programming "Functional Programming on wikipedia"
 [lexer]: http://en.wikipedia.org/wiki/Lexical_analysis "Lexical analysis on wikipedia"
@@ -128,3 +128,4 @@ As an additional Note: Erlang ships with a fully featured erlang parser called [
 [leex]: http://erlang.org/doc/man/leex.html "erlang leex"
 [erlang-listhandling]: http://www.erlang.org/doc/efficiency_guide/listHandling.html "erlang listhandling"
 [Bit String Comprehension]: http://erlang.org/doc/reference_manual/expressions.html#id81780
+

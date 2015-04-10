@@ -27,8 +27,7 @@ Additionally the Arch Linux wiki is very, very good and if something fails there
 This part is fairly straight forward and you can simply follow the installation instructions for [ARMv6 (rpi 1)](http://archlinuxarm.org/platforms/armv6/raspberry-pi) or [ARMv7 (rpi 2)](http://archlinuxarm.org/platforms/armv7/broadcom/raspberry-pi-2) on [archlinuxarm.org](http://archlinuxarm.org).
 It is important that you follow the instructions to the point (tar is not the same as bsdtar and does behave differently).
 
-Since there are no provided images anymore you either have to build your own or (much easier) boot up a linux machine via livecd / virtualbox to follow the instructions.
-Alternatively you can try out [NOOBS](http://www.raspberrypi.org/help/noobs-setup/) but I never tried it so you are on your own.
+If you don't have access to an *nix environment you either have to build your own or (much easier) boot up a linux machine via livecd / virtualbox to follow the instructions since there are no provided images anymore.
 
 If you insert your SD-Card into your Pi now and power it up, you can log into your brand new arch system locally or via ssh to configure it further.
 ##Pacman (packet management)

@@ -9,4 +9,8 @@ Summary: Cranked out my mad video editing skillz and produced this gif.
 Cranked out my mad video editing skillz and produced this gif. Hope to get it accepted to [thisotplife]. Source is 'Kelly's Heroes' (you should watch it if you haven't yet).
 
 
+### Update
+
+It's up now under [Deployment without Erlang](http://thisotplife.tumblr.com/post/117069794430/deployment-without-erlang).
+
 [thisotplife]: http://thisotplife.tumblr.com/ "This OTP Life"

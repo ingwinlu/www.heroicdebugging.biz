@@ -1,7 +1,6 @@
 Title: On blocking ads
-Date: 2015-04-25 19:44:16
+Date: 2015-04-25 12:30
 Tags: adblock, youtube, twitch
-Status: draft
 
 I love watching videos on [youtube] and streams on [twitch].
 Most of the time I have them open in the background while working and I enjoy them much more then what is provided via television in Austria when trying to relax.
@@ -18,8 +17,8 @@ So far, I only managed to endure two days till I had to reenable it.
 It's not so much the ads that play in the beginning of a stream and it is not the popup that does not go away on the youtube video I am watching.
 It is always that one ad that apparently nobody checked if it's sound levels are too high.
 
-I am not sure if this is a localization issue with german speaking ads or if it is like that all over the world but it is not accaptable for me.
-One minute I am watching something on a low to moderate volume and in the next second I have to jump up and rip the headphones from my head because my ears hurt because some random ad decided to play that completly ignores all soundlevels.
+I am not sure if this is a localization issue with german speaking ads or if it is like that all over the world but it is not acceptable for me.
+One minute I am watching something on a low to moderate volume and in the next second I have to jump up and rip the headphones from my head because my ears hurt because some random ad decided to play that completely ignores all sound-levels.
 
 So it is back to blocking every ad for now because of one ad by one company.
 It would be in the interest of the ad company to review those ads better to make them bearable because as for now everyone will choose to rather block them then to worry about the next ad that might blow their ears out for good.

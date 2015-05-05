@@ -1,7 +1,7 @@
 Title: erllex - simple erlang sample lexer
 Date: 2015-04-08 17:06
 Tags: erlang, lexer, regex
-Summary: Showing of Regular Expressions in Erlang and how to build a simple lexer
+Summary: Showing off Regular Expressions in Erlang and how to build a simple lexer
 
 A [lexer] analyses a character sequence and turns it into meaningful tokens.
 As an example: if we want to build a simple calculator we would have to lex `<<"22 - 2011">>` into something like `[{number, 22}, {minus, -}, {number, 2011}]`.

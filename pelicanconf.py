@@ -132,7 +132,8 @@ TAG_CLOUD_MAX_ITEMS = 20
 GOOGLE_ANALYTICS='UA-8040053-2'
 
 #license
-CC_LICENSE = "CC-BY-NC"
+CC_LICENSE = "CC-BY-NC-SA"
+CC_ATTR_MARKUP = True
 
 #Markdown
 #MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']

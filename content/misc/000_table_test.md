@@ -18,3 +18,11 @@ intrasite link tests:
 [a link relative to the content root]({filename}/sysadmin/08_installarchbase_v2.md)
 
 [a link relative to the content root with headerid]({filename}/sysadmin/08_installarchbase_v2.md#installation_1)
+
+link to tag test:
+[Link to twitch tag]({tag}twitch)
+
+link to category test:
+[link to misc]({category}misc)
+
+

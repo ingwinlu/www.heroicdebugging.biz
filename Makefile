@@ -5,36 +5,28 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIRDRAFT=$(BASEDIR)/draft
 CONFFILE=$(BASEDIR)/pelicanconf.py
 
-GITHUB_PAGES_BRANCH=gh-pages
-
-DEBUG ?= 1
-ifeq ($(DEBUG), 1)
-	PELICANOPTS += -D
-endif
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make html                        (re)generate the web site          '
+	@echo '   make draft                       provide a draft into draft dir     '
+	@echo '   make publish                     (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
-	@echo '   make github                      upload the web site via gh-pages   '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
 
-html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+draft:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIRDRAFT) -s $(CONFFILE) -D
+
+publish:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-github: html
-ifeq ($(TRAVIS_PULL_REQUEST), false)
-	ghp-import -n $(OUTPUTDIR)
-	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
-endif
-
-.PHONY: help html clean github
+.PHONY: help draft publish clean

@@ -4,8 +4,8 @@ PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
-OUTPUTDIRDRAFT=$(BASEDIR)/draft
+OUTPUTDIR=/docker/nginx_www
+OUTPUTDIRDRAFT=/docker/nginx_draft
 CONFFILE=$(BASEDIR)/pelicanconf.py
 
 

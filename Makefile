@@ -1,32 +1,34 @@
 PY?=python
 PELICAN?=pelican
-PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=/docker/nginx_www
-OUTPUTDIRDRAFT=/docker/nginx_draft
+OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 
+SSH_PORT=22
+SSH_USER=winlu
+SSH_HOST=heroicdebugging.biz
+SSH_TARGET_DIR=/docker/nginx_www
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make draft                       provide a draft into draft dir     '
-	@echo '   make publish                     (re)generate the web site          '
+	@echo '   make html                        (re)generate the web site          '
+	@echo '   make publish                     upload to ssh host via rsync       '
 	@echo '   make clean                       remove the generated files         '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
 
-draft:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIRDRAFT) -s $(CONFFILE) -D
+html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) -D
 
-publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE)
+publish: html
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-.PHONY: help draft publish clean
+.PHONY: help html publish clean

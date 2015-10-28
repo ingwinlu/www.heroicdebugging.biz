@@ -140,3 +140,7 @@ CC_ATTR_MARKUP = True
 
 #Cache
 CACHE_CONTENT = False
+
+#Open Graph
+OPEN_GRAPH = True
+#OPEN_GRAPH_IMAGE = "sitelogo.png"

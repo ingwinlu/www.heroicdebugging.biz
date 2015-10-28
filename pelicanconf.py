@@ -25,6 +25,7 @@ STATIC_PATHS = ['images',
                 'static',
                 'extra/sitelogo.png',
                 'extra/favicon.ico',
+                'extra/favicon.png',
                 'extra/robots.txt',
                 'extra/google331456191962689c',
                 'extra/CNAME']
@@ -32,6 +33,7 @@ EXTRA_PATH_METADATA = {
                         'extra/sitelogo.png': {'path': 'sitelogo.png'},
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
+                        'extra/favicon.png': {'path': 'favicon.png'},
                         'extra/google331456191962689c': {'path': 'google331456191962689c.html'},
                         'extra/CNAME': {'path': 'CNAME'},
                       }
@@ -143,4 +145,4 @@ CACHE_CONTENT = False
 
 #Open Graph
 OPEN_GRAPH = True
-#OPEN_GRAPH_IMAGE = "sitelogo.png"
+OPEN_GRAPH_IMAGE = "favicon.png"

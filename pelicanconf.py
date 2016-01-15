@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'winlu'
-SITENAME = 'Winlus Blog'
+SITENAME = 'Heroic Debugging'
 SITEURL = 'https://www.heroicdebugging.biz'
 SITESUBTITLE = 'A Blog about Diminishing Returns of Heroic Debugging and <a href="/pages/about.html">more...</a>'
 

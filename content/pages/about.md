@@ -22,7 +22,7 @@ You can can contact me either via the *social links* in the sidebar or use one o
 
 | Protocol       | Contact Information
 |:-------------- |:-----------------------------------------------------|
-| jabber/xmpp    | [winlu@jabber.at](winlu@jabber.at)                   |
+| jabber/xmpp    | [winlu@barely.sexy](winlu@barely.sexy)               |
 | email          | [derwinlu@gmail.com](mailto:derwinlu@gmail.com)      |
 | IRC - freenode | winlu                                                |
 

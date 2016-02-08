@@ -87,13 +87,6 @@ SITEMAP = {
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DEFAULT_DATE = 'fs'
 
-# Blogroll
-LINKS =  (('barely.sexy Blog', 'https://barely.sexy/'),
-          ('Archlinux', 'https://www.archlinux.org/'),
-          ('FreeDNS', 'http://freedns.afraid.org/'),
-          ('Rasperry Pi', 'http://www.raspberrypi.org/'),
-         )
-
 # Social widget
 SOCIAL = (
             ('Twitter', 'https://twitter.com/derwinlu'),

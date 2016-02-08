@@ -34,8 +34,6 @@ EXTRA_PATH_METADATA = {
                         'extra/robots.txt': {'path': 'robots.txt'},
                         'extra/favicon.ico': {'path': 'favicon.ico'},
                         'extra/favicon.png': {'path': 'favicon.png'},
-                        'extra/google331456191962689c': {'path': 'google331456191962689c.html'},
-                        'extra/CNAME': {'path': 'CNAME'},
                       }
 
 #Pagination

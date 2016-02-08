@@ -126,9 +126,6 @@ EXPAND_LATEST_ON_INDEX = True
 #Cookie Consent
 COOKIE_CONSENT = True
 
-#Google Analytics
-GOOGLE_ANALYTICS='UA-8040053-2'
-
 #license
 CC_LICENSE = "CC-BY-NC-SA"
 CC_ATTR_MARKUP = True

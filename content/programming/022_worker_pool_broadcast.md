@@ -1,4 +1,4 @@
-Title: Broadcasting to wpool workers
+Title: Using wpool and pg2 to build broadcastable worker pools
 Date: 2016-02-06 16:57
 Tags: erlang, wpool
 

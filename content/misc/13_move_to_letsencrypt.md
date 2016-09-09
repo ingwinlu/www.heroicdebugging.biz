@@ -12,7 +12,7 @@ To move to [letsencrypt][letsencrypt] i simply needed to add another container i
 [Letsencrypt-companion][letsencrypt-companion] takes care of acquiring all needed certificates that are proxied via [nginx-proxy][nginx-proxy].
 A few edits to my systemd services that take care of the docker container management later everything looks fine and is running smoothly (so far!).
 
-Overall a good experience and it feels good to crossout the 'RENEW SSL CERTS' entry in my calendar.
+Overall a good experience and it feels good to cross the 'RENEW SSL CERTS' entry in my calendar off.
 
 
 [letsencrypt]: https://letsencrypt.org/

@@ -55,15 +55,15 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 #plugins
 PLUGIN_PATHS = [
         './pelican-bootstrapify',
-        './pelican_plugin-render_math',
         './pelican-sitemap',
-        './pelican-toc'
+        './pelican-toc',
+        './pelican-plugins',
     ]
 PLUGINS = [
         'bootstrapify',
-        'pelican_plugin-render_math',
         'sitemap',
-        'toc'
+        'toc',
+        'render_math'
     ]
 
 #sitemap settings

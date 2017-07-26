@@ -1,6 +1,3 @@
-__pycache__/*
 output/
-draft/
 *.pyc
 *.swp
-.tox/

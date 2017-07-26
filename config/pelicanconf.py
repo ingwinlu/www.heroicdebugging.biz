@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'winlu'
 SITENAME = 'Heroic Debugging'
-SITEURL = 'https://www.heroicdebugging.biz'
+SITEURL = ''
+RELATIVE_URLS = True
 SITESUBTITLE = 'A Blog about Diminishing Returns of Heroic Debugging and <a href="/pages/about.html">more...</a>'
 
 PATH = 'content'
@@ -14,7 +15,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 # Feed generation
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 CATEGORY_FEED_ATOM = None
@@ -54,16 +55,12 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 #plugins
 PLUGIN_PATHS = [
-        './pelican-bootstrapify',
-        './pelican-sitemap',
-        './pelican-toc',
-        './pelican-plugins',
+        '../plugins',
     ]
 PLUGINS = [
         'bootstrapify',
         'sitemap',
         'toc',
-        'render_math'
     ]
 
 #sitemap settings
@@ -80,6 +77,14 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# TOC = {
+#     'TOC_INCLUDE_TITLE': 'false'
+# }
+
+# BOOTSTRAPIFY = {
+#         'table': ['table', 'table-striped']
+# }
 
 #dateformat
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'

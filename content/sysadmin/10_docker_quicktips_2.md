@@ -1,7 +1,7 @@
 Title: Docker quicktips #2
 Date: 2017-07-22 12:48:22
 Tags: Server, Docker
-Summary: Heyyy just another small set of tricks I picked up over time when working with [Docker].
+Summary: Heyyy just another small set of tricks I picked up over time when working with Docker.
 
 
 Heyyy just another small set of tricks I picked up over time when working

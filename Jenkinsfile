@@ -7,14 +7,23 @@ pipeline {
   }
   stages {
     stage('Build') {
-      agent {
-        dockerfile {
-          filename 'Dockerfile'
+      parallel {
+        stage('Build') {
+          agent {
+            dockerfile {
+              filename 'Dockerfile'
+            }
+            
+          }
+          steps {
+            sh 'test'
+          }
         }
-        
-      }
-      steps {
-        sh 'test'
+        stage('Build v2') {
+          steps {
+            echo 'test'
+          }
+        }
       }
     }
   }

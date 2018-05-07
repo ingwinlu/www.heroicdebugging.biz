@@ -81,7 +81,13 @@ html: prerun
 publish: do-publish cleanup-publish
 
 do-publish: html
-	-$(verbose) docker run --rm -i -t -v $(DOCKER_CONTAINER_VOLUME):/usr/share/nginx/html -v $(HOME)/.ssh/:/root/.ssh/:ro  $(DOCKER_RSYNC_IMAGE) rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete /usr/share/nginx/html/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+	-$(verbose) docker run --rm -i -t \
+		-v $(DOCKER_CONTAINER_VOLUME):/usr/share/nginx/html \
+		-v $(HOME)/.ssh/:/root/.ssh/:ro  \
+		$(DOCKER_RSYNC_IMAGE) \
+		rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete \
+		/usr/share/nginx/html/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) \
+		--cvs-exclude
 
 cleanup-publish: do-publish
 	-$(verbose) docker volume rm $(DOCKER_CONTAINER_VOLUME)

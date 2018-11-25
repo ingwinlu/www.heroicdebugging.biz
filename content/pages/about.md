@@ -1,6 +1,7 @@
 Title: About
 
-My name is Winlu, currently living in Vienna, Austria. Studying Computer Science at TU Vienna and working for the SESAR Project.
+My name is Winlu, currently living in Vienna, Austria.
+I studied Computer Science at TU Vienna and am working for Catalysts AT.
 I like Computers, Food, Motorbikes and Coffee!
 
 Thank you for checking out my Blog!
@@ -20,7 +21,9 @@ Answering why **.biz** is easier, because it was dirt cheap.
 
 
 ### What content will be on this blog?
-I do like programming (everything from c to erlang) so this will be most of the content on here, but I plan to also put up some content about my other hobbies: motorbikes, computer games and music!
+I do like programming (everything from c to erlang) so this will be most of the
+content on here, but I plan to also put up some content about my other hobbies:
+motorbikes, computer games and music!
 
 
 ### Contact:
@@ -41,12 +44,12 @@ You can can contact me either via the *social links* in the sidebar or use one o
     </tr></thead>
     <tbody>
     <tr>
-        <td>2010-now</td>
-        <td>TU Vienna, Computer Science</td>
+        <td>2010-2018</td>
+        <td>Computer Science @ TU Vienna</td>
     </tr>
     <tr>
         <td>2004-2009</td>
-        <td>HTBLVA Innsbruck, industrial engineering</td>
+        <td>Industrial Engineering @ HTBLVA Innsbruck</td>
     </tr>
     </tbody>
 </table>
@@ -59,16 +62,20 @@ You can can contact me either via the *social links* in the sidebar or use one o
     </tr></thead>
     <tbody>
     <tr>
-        <td>2017-now</td>
-        <td>Solutions Architect, Austro Control</td>
+        <td>2018-now</td>
+        <td>Software Engineer, Data Scientist @ Catalysts AT</td>
+    </tr>
+    <tr>
+        <td>2017-2018</td>
+        <td>Solutions Architect @ Austro Control</td>
     </tr>
     <tr>
         <td>2011-2017</td>
-        <td>Service Architect, SESAR, Austro Control, Meteoserve GmbH</td>
+        <td>Service Architect, SESAR @ Austro Control, Meteoserve GmbH</td>
     </tr>
     <tr>
         <td>2009-2010</td>
-        <td>Civilian Service, Johanniter Innsbruck</td>
+        <td>Civilian Service @ Johanniter Innsbruck</td>
     </tr>
     <tr>
         <td>till 2009</td>

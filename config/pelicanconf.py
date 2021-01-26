@@ -95,7 +95,7 @@ SOCIAL = (
             ('Twitter', 'https://twitter.com/derwinlu'),
             ('Bitbucket', 'https://bitbucket.org/winlu'),
             ('GitHub', 'https://github.com/ingwinlu'),
-            ('Google+', 'https://plus.google.com/115771807029208924055'),
+          # ('Google+', 'https://plus.google.com/115771807029208924055'),
           # ('RSS', SITEURL + '/' + FEED_ALL_ATOM),
             ('EMAIL', 'mailto:derwinlu@gmail.com'),
           )

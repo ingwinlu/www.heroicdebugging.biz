@@ -5,7 +5,7 @@ Summary: Even though it is not really documented you can add SRV entries to your
 
 Even though it is not really documented you can add [SRV](http://en.wikipedia.org/wiki/SRV_record) entries to your [http://freedns.afraid.org/](http://freedns.afraid.org/) account. To do so open up your [subdomain](http://freedns.afraid.org/subdomain/) page and press [Add](http://freedns.afraid.org/subdomain/edit.php). 
 
-![Edit Dialog]({filename}/images/dyndns_SRV_edit.PNG)
+![Edit Dialog]({static}/images/dyndns_SRV_edit.PNG)
 
 A SRV record generally has this form[^1]: 
 

@@ -5,13 +5,13 @@ Summary: How to handle some of the stones eclipse throws at you when you don't e
 
 ###Egit unable to store Password
 Sometimes Eclipse fails to store your EGit/SVN passwords in secure storage, so you have to enter them again and again. Workaround for this is to go into Git-View, open up your remotes, right click the one you want to save the password for and select `Configure Push`.
-![Eclipse - Configure Git]({filename}/images/eclipse_configureGIT.PNG)
+![Eclipse - Configure Git]({static}/images/eclipse_configureGIT.PNG)
 
 Hit `Change...` next to the URI.
-![Eclipse - Configure Push]({filename}/images/eclipse_configurePush.PNG)
+![Eclipse - Configure Push]({static}/images/eclipse_configurePush.PNG)
 
 Here you can set the username and password you want to use and tick `Store in Secure Storage`
-![Eclipse - Change URI]({filename}/images/eclipse_changeURI.PNG)
+![Eclipse - Change URI]({static}/images/eclipse_changeURI.PNG)
 
 Now Eclipse should remember it.
 

@@ -13,7 +13,7 @@ Currently I am in love with this awesome song:
 <iframe width="560" height="315" src="//www.youtube.com/embed/Cwr-FhjE8Fw" frameborder="0" allowfullscreen></iframe>
 ###Food
 Homemade Wraps **:D**
-![Homemade Wraps]({filename}/images/wrap_homemade.jpg "Homemade Wraps") 
+![Homemade Wraps]({static}/images/wrap_homemade.jpg "Homemade Wraps") 
 ###Art
 Came across this very detailed and great Graffiti:
 <blockquote class="twitter-tweet" lang="de"><p>fucking amazing <a href="https://twitter.com/search?q=%23Vienna&amp;src=hash">#Vienna</a> <a href="http://t.co/3llhAWZ58c">pic.twitter.com/3llhAWZ58c</a></p>&mdash; winlu (@derwinlu) <a href="https://twitter.com/derwinlu/statuses/453089782222954496">April 7, 2014</a></blockquote>

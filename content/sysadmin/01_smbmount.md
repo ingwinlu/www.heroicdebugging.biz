@@ -9,7 +9,7 @@ I use my Pi as mediacenter with xbmc and I wanted a simple way to dynamically mo
 The script uses **mountpoint** which is provided on Arch by **util-linux**, **udevil** and **cifs-utils** to mount smb shares. Don't forget to set cifs as an allowed type in */etc/udevil/udevil.conf*.
 
 #The Script
-Downloadable from [here](|filename|/static/networkMount.sh).
+Downloadable from [here](|static|/static/networkMount.sh).
 
     :::bash
     #!/bin/bash

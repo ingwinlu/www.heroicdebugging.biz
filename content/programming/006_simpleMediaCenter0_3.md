@@ -5,6 +5,6 @@ Summary: Third working release of Simple Media Center (simpleMC)
 
 This release adds much needed process polling to the omxplayer handler. Also I finally included some styling css (bootstrap) as well as a bootstrap theme from [bootswatch.com](bootswatch.com).
 
-![simple MediaCenter v0.3]({filename}/images/simpleMediaServer_v0_3.PNG "simpleMediaCenter v0.3") 
+![simple MediaCenter v0.3]({static}/images/simpleMediaServer_v0_3.PNG "simpleMediaCenter v0.3") 
 
 Check out the [source code here](https://github.com/ingwinlu/simpleMediaCenter) for more information and if you want to contribute to the project don't hesitate to contact me!

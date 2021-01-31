@@ -119,7 +119,7 @@ code_change is a feature for hot code reloading, which I did not touch yet, whil
 
 Here is the private part of the Poller, which actually handles the logic of getting new files. I borrowed the idea from [this blog post](http://aleph-nought.blogspot.co.at/2010/09/more-erlang-building-file-poller.html), though I have rewritten it somewhat. First we check the files mtime versus the current poll time. All this can be put into a single fold_files call, which we use to recursively (thats the *true* part in the call) search for all files matching *Regex* in *Directory* and add it to a list via an anonymous function. There we also test the files mtime and add the File to our NewFiles List if it is indeed newer.
 
-The full [source can be found here](|filename|/static/scanner.erl).
+The full [source can be found here](|static|/static/scanner.erl).
 ###Usage
 This part is fairly simple, since we abstracted that nicely! 
 

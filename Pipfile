@@ -13,3 +13,8 @@ typogrify = "*"
 
 [requires]
 python_version = "3.9"
+
+[scripts]
+dev = "pelican -s config/pelicanconf.py --autoreload --listen"
+build = "pelican -s config/publishconf.py"
+publish = 'rsync -e "ssh -p 22" -P -rvzc --delete output/ winlu@heroicdebugging.biz:/docker/nginx_www'

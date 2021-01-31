@@ -1,0 +1,12 @@
+[submodule "plugins/pelican-bootstrapify"]
+	path = plugins/pelican-bootstrapify
+	url = git@github.com:ingwinlu/pelican-bootstrapify.git
+[submodule "plugins/pelican-sitemap"]
+	path = plugins/pelican-sitemap
+	url = git@github.com:ingwinlu/pelican-sitemap.git
+[submodule "plugins/pelican-toc"]
+	path = plugins/pelican-toc
+	url = git@github.com:ingwinlu/pelican-toc.git
+[submodule "themes/pelican-twitchy"]
+	path = themes/pelican-twitchy
+	url = git@github.com:ingwinlu/pelican-twitchy.git

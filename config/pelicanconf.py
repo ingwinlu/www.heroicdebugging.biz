@@ -8,7 +8,7 @@ SITEURL = ''
 RELATIVE_URLS = True
 SITESUBTITLE = 'A Blog about Diminishing Returns of Heroic Debugging and <a href="/pages/about.html">more...</a>'
 
-PATH = 'content'
+PATH = '../content'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -41,7 +41,7 @@ EXTRA_PATH_METADATA = {
 #DEFAULT_PAGINATION = 3
 
 #theme
-THEME = "pelican-twitchy"
+THEME = "themes/pelican-twitchy"
 BOOTSTRAP_THEME = 'sandstone'
 PYGMENTS_STYLE = 'colorful'
 #PYGMENTS_STYLE = 'emacs'
@@ -58,9 +58,9 @@ PLUGIN_PATHS = [
         '../plugins',
     ]
 PLUGINS = [
-        'bootstrapify',
-        'sitemap',
-        'toc',
+        'pelican-bootstrapify',
+        'pelican-sitemap',
+        'pelican-toc',
     ]
 
 #sitemap settings

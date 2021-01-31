@@ -8,7 +8,7 @@ Heyyy just another small set of tricks I picked up over time when working
 with [Docker].
 
 # Pull new versions of existing images / tags
-```
+```bash
 docker images | awk 'BEGIN{OFS=":"} {print $1,$2}' | grep -v 'none' | grep -iv 'repo' | xargs -n1 docker pull
 ```
 
@@ -25,13 +25,13 @@ Last we pipe in each line separately (`-n1`) into a docker pull call.
 We can use a similar approach to delete untagged images
 after upgrading and restarting all containers.
 (I.e. just grapping 'none' lines and feeding it into `docker rmi`)
-```
+```bash
 docker images | grep '<none>' | awk '{print $3}' | xargs -n1 docker rmi
 ```
 
 Add them to your `.bashrc` for convenience (**NOTE:** you need to escape
 special chars):
-```
+```bash
 alias docker_update="docker images | awk 'BEGIN{OFS=\":\"} {print \$1,\$2}' | grep -v 'none' | grep -iv 'repo' | xargs -n1 docker pull"
 alias docker_cleanup="docker images | grep '<none>' | awk '{print \$3}' | xargs -n1 docker rmi"
 ```

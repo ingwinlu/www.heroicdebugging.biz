@@ -101,11 +101,11 @@ SOCIAL = (
           )
 
 # Share
-SHARE = True
+SHARE = False  # seems broken
 
 #disqus
-DISQUS_SITENAME = 'winlu'
-DISQUS_LOAD_LATER = True
+# DISQUS_SITENAME = 'winlu'
+# DISQUS_LOAD_LATER = True
 
 #typography
 TYPOGRIFY = True
@@ -127,7 +127,7 @@ EXPAND_LATEST_ON_INDEX = True
 #TAG_CLOUD_MAX_ITEMS = 20
 
 #Cookie Consent
-COOKIE_CONSENT = True
+COOKIE_CONSENT = False
 
 #license
 CC_LICENSE = "CC-BY-NC-SA"

@@ -1,5 +1,6 @@
 Title: Is this thing still on?
 Date: 2021-01-31 10:00
+Modified: 2021-01-31 10:30
 Tags: organisational
 
 
@@ -20,7 +21,9 @@ I did some initial fixups by getting it to render again with an up2date version 
     * update ci/cd pipelines
     * build with current pelican, drop py2 support
     * plugins (pip) installable (as this is the new pelican default)
-* Cleanup or even replace the theme,
-  its an old bootstrap version, no stripped css, slow and a bit clunky
+* theme
+    * Cleanup or even replace the theme as it's based on an old bootstrap version, no stripped css, slow and a bit clunky
+    * integrations like shares do not work reliable anymore
+    * i want something slim that is not depending on third party staying the same
 
 Let's see how long it will take me, preferably less then 3 years this time.

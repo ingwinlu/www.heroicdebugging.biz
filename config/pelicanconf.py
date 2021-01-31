@@ -22,14 +22,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 #static
-STATIC_PATHS = ['images',
-                'static',
-                'extra/sitelogo.png',
-                'extra/favicon.ico',
-                'extra/favicon.png',
-                'extra/robots.txt',
-                'extra/google331456191962689c',
-                'extra/CNAME']
+STATIC_PATHS = [
+    'images',
+    'static',
+    'extra/sitelogo.png',
+    'extra/favicon.ico',
+    'extra/favicon.png',
+    'extra/robots.txt',
+]
 EXTRA_PATH_METADATA = {
                         'extra/sitelogo.png': {'path': 'sitelogo.png'},
                         'extra/robots.txt': {'path': 'robots.txt'},
